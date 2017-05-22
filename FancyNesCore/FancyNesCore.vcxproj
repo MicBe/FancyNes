@@ -139,7 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CentralMemory.cpp" />
+    <ClCompile Include="Cpu.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Ppu.cpp" />
+    <ClCompile Include="VideoMemory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CentralMemory.h" />
+    <ClInclude Include="Cpu.h" />
+    <ClInclude Include="Ppu.h" />
+    <ClInclude Include="VideoMemory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
