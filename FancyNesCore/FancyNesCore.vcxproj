@@ -139,15 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseFileLoader.cpp" />
+    <ClCompile Include="Cartridge.cpp" />
     <ClCompile Include="CentralMemory.cpp" />
     <ClCompile Include="Cpu.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NesSystem.cpp" />
     <ClCompile Include="Ppu.cpp" />
     <ClCompile Include="VideoMemory.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseFileLoader.h" />
+    <ClInclude Include="Cartridge.h" />
     <ClInclude Include="CentralMemory.h" />
     <ClInclude Include="Cpu.h" />
+    <ClInclude Include="FileInfo.h" />
+    <ClInclude Include="IFileLoader.h" />
+    <ClInclude Include="NesSystem.h" />
     <ClInclude Include="Ppu.h" />
     <ClInclude Include="VideoMemory.h" />
   </ItemGroup>
